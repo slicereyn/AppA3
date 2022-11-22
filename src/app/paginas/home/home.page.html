@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Amipet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card (click)="abrirPagina('/caes')">
+    <ion-card-header>
+      <ion-card-subtitle>Amigos > Cães</ion-card-subtitle>
+      <ion-card-title><ion-icon name="paw"></ion-icon> Cães</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      No nosso app você encontra diferentes tipos de cães para adoção, clique no card para ver as fotos do seu próximo melhor amigo!
+    </ion-card-content>
+  </ion-card>
+  <ion-card (click)="abrirPagina('/gatos')">
+    <ion-card-header>
+      <ion-card-subtitle>Amigos > Gatos</ion-card-subtitle>
+      <ion-card-title><ion-icon name="paw"></ion-icon> Gatos</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Quem não gosta do ronrom vindo de um gatinho? Veja as opções de felinos disponíveis para levar pra casa e dar muito amor.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
